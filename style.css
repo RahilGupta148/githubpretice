@@ -52,13 +52,13 @@ marquee{
     background-color: burlywood;
 
 }
-#mar{
-    direction: right;
+marquee.ul{
+    direction: ltr;
     speed:normal;
     behavior: inherit;
     border: 1px solid #000;
     padding:20px 0;
-    background-color: pink;
+    background-color: burlywood;
 
 }
 h1 {
@@ -67,4 +67,16 @@ h1 {
   
   summary{
     box-shadow: 10px 10px;
+  }
+  ul{
+      color: aquamarine;
+      font-size: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-decoration: blue;
+ list-style-type: square;
+  }
+ h4{
+      text-decoration-line: overline;
+      text-decoration-color: brown;
+      font-size: 60px;
   }
